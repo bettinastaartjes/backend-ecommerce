@@ -1,3 +1,5 @@
+//this is an array of objects w keys and values to access info
+
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');

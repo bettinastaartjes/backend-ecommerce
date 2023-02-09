@@ -1,8 +1,11 @@
 // import models
-const Product = require('./Product');
-const Category = require('./Category');
-const Tag = require('./Tag');
-const ProductTag = require('./ProductTag');
+const Product = require('./product-seeds');
+const Category = require('./category-seeds');
+const Tag = require('./tag-seeds');
+const ProductTag = require('./product-tag-seeds');
+
+
+//first sync the database then call teh function
 
 // ** Products belongsTo Category
 Product.belongsTo(Category, {
